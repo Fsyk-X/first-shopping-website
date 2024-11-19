@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="{{ productDetail.prodImage }}" height="250px" width="250px">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        {{ productDetail.prodTitle }}
+                    </div>
+                </div>
+                <div class="row"></div>
+                    <div class="col-md-12">
+                        {{ productDetail.prodPrice }}
+                    </div>
+                </div>
+                <div class="row"></div>
+                    <div class="col-md-12">
+                        {{ productDetail.prodDiscount }}
+                    </div>
+                </div>
+                <div class="row"></div>
+                    <div class="col-md-12">
+                        {{ productDetail.prodDescription }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
